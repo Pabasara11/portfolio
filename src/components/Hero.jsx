@@ -2,7 +2,7 @@ import React from 'react';
 import { personalInfo } from '../data/portfolioData';
 import './Hero.css';
 
-const photoBase64 = "./public/photo-new.png";
+const photo = "/photo-new.png";
 
 const Hero = () => {
   return (
@@ -28,7 +28,7 @@ const Hero = () => {
 
       <div className="hero-right hero-anim hero-anim--6">
         <div className="hero-img-wrap">
-          <img src={photoBase64} alt="Pabasara Rajapaksha" className="hero-photo hero-float" />
+          <img src={photo} alt="Pabasara Rajapaksha" className="hero-photo hero-float" />
         </div>
       </div>
     </section>
