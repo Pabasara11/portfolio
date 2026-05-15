@@ -1,0 +1,9 @@
+.footer {
+  background: var(--surface); border-top: 1px solid var(--border);
+  padding: 2rem 3rem; display: flex; justify-content: space-between; align-items: center;
+  flex-wrap: wrap; gap: 1rem;
+}
+.footer-copy {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.68rem; letter-spacing: 0.12em; color: var(--muted);
+}
